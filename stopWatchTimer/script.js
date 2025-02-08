@@ -12,7 +12,6 @@ function displayTime(hours, minutes, seconds) {
 
 function handleButtonClicks(event){
     const btn = event.target.name;
-    // console.log("Click");
     if(btn === 'start'){
         timerId = setInterval(() => {
             seconds++;
